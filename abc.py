@@ -1,3 +1,7 @@
+# ABC-Formula Python application      #
+#									  #
+# Created in 2014 by Renzo Westerbeek #
+
 import math
 
 # Stores ABC #
@@ -14,12 +18,11 @@ if D < 0:
 	print "No solution..."
 	print ""
 else:
-	# Executes ABC-Formule #
+	# Executes ABC-Formula #
 	X1 = (-B-math.sqrt(D))/(2*A)
 	X2 = (-B+math.sqrt(D))/(2*A)
 
-	# Prints results to screen #
-
+	# If D = 0 -> Only 1 solution #
 	if X1 == X2:
 		print ""
 		print "Discriminant: " + str(D)
