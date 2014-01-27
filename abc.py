@@ -15,7 +15,7 @@ def calculate():
 	# Calculates Discriminant #
 	D = (B)**2-4*A*C
 
-	# There is no solution if D < 0 #
+	# If D < 0 -> No solution #
 	if D < 0:
 		answer.set("There is no solution...")
 	else:
