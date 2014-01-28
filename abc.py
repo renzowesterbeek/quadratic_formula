@@ -17,6 +17,7 @@ def calculate():
 
 	# If D < 0 -> No solution #
 	if D < 0:
+		discriminant.set("")
 		answer.set("There is no solution...")
 	else:
 		# Executes ABC-Formula #
