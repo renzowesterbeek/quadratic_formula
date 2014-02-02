@@ -1,4 +1,4 @@
-//console.log("You like to take a look under the hood? There's also Python source-code available here: https://github.com/renzowesterbeek/quadratic_formula");
+console.log("You like to take a look under the hood? Source-code (including Python) is available here: https://github.com/renzowesterbeek/quadratic_formula");
 
 function calculate() {
 	
